@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*background: url(https://i.pinimg.com/originals/69/b9/0e/69b90ed4e4087e02faaaccf33a843dfb.jpg) fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  text-align: center
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.results {
+  padding-top: 10px;
+  height: 450px;
+  width: 400px;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.397);
+}
+
+.image {
+  height: 250px;
+  width: 375px;
+  margin: auto;
+  opacity: 0.8;
+  border-radius: 10px;
+  background:
+    linear-gradient(to top right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%),
+    linear-gradient(to bottom right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.397);
+}
+
+.results p {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+input[name=restart] {
+  margin-top: 70px;
+  background:
+    linear-gradient(to top right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%),
+    linear-gradient(to bottom right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.397);
+  height: 50px;
+  width: 25%;
+}

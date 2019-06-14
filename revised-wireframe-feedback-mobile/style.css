@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 55px;
+}
+
+.questionResults {
+  position: absolute;
+  top:0;
+  right:0;
+  padding-right: 20px;
+}
+
+.scoreResults {
+  position: absolute;
+  top:0;
+  right:0;
+  padding-right: 25px;
+  padding-top: 30px;
+}
+
+body {
+  /*background: url(https://i.pinimg.com/originals/69/b9/0e/69b90ed4e4087e02faaaccf33a843dfb.jpg) fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  text-align: center
+}
+
+.results {
+  padding: 2px;
+  height: 450px;
+  width: 350px;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.397);
+}
+
+.image {
+  margin: 25px 10px 0;
+  height: 250px;
+  width: auto;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  background:
+    linear-gradient(to top right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%),
+    linear-gradient(to bottom right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.397);
+}
+
+form p {
+  padding: 40px 10px 0;
+}
+
+input[name=next] {
+  margin-top: 80px;
+  background:
+    linear-gradient(to top right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%),
+    linear-gradient(to bottom right,
+      transparent 49.9%, gray 49.9%,
+      gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.397);
+  height: 50px;
+  width: 100px;
+}

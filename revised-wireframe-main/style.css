@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-top: 20px;
+}
+div.questionResults {
+  position: absolute;
+  top:0;
+  right:0;
+  padding-right: 20px;
+}
+
+div.scoreResults {
+  position: absolute;
+  top:0;
+  right:0;
+  padding-right: 25px;
+  padding-top: 30px;
+}
+
+fieldset {
+  border: 0;
+  margin-top: 75px;
+}
+
+body {
+  /*background: url(https://i.pinimg.com/originals/69/b9/0e/69b90ed4e4087e02faaaccf33a843dfb.jpg) fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  text-align: center
+}
+
+form {
+  padding-top: 5px;
+}
+
+.question {
+  padding: 10px;
+  width: 33%;
+  margin: auto;
+  margin-bottom: 10px;
+  outline: 2px solid gray;
+  background:linear-gradient(to top right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%),
+      linear-gradient(to bottom right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.397);
+  font-size: 20px;
+}
+
+input[value=answer1] {
+  position: relative;
+  top: 30px;
+  left: -175px;
+  outline: 2px solid gray;
+  background:linear-gradient(to top right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%),
+      linear-gradient(to bottom right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.582);
+  height: 100px;
+  width: 25%;
+}
+
+input[value=answer2] {
+  position: relative;
+  top: -70px;
+  left: 175px;
+  outline: 2px solid gray;
+  background:linear-gradient(to top right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%),
+      linear-gradient(to bottom right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.582);
+  height: 100px;
+  width: 25%;
+}
+
+input[value=answer3] {
+  position: relative;
+  top: -40px;
+  left: -175px;
+  outline: 2px solid gray;
+  background:linear-gradient(to top right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%),
+      linear-gradient(to bottom right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.582);
+  height: 100px;
+  width: 25%;
+}
+
+
+input[value=answer4] {
+  position: relative;
+  top: -140px;
+  left: 175px;
+  outline: 2px solid gray;
+  background:linear-gradient(to top right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%),
+      linear-gradient(to bottom right,
+         transparent 49.9%, gray 49.9%,
+         gray 50.1%, transparent 50.1%);
+  background-color: rgba(128, 128, 128, 0.582);
+  height: 100px;
+  width: 25%;
+}
